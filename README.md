@@ -56,16 +56,16 @@ The code is well-commented and organized, making it easy to understand and modif
 #### The above code utilizes the class "Array" to encapsulate various functions and data related to array operations.
 The class has two constructors, a default constructor that initializes the array with a default size of 10, and a parameterized constructor that allows the user to specify the size of the array. The class also has a destructor to deallocate the memory used by the array. By using a class, the code achieves several benefits:
 
-`Encapsulation:` The class encapsulates the array data and related functions within a single entity, making it easier to manage and manipulate the array as a whole.
+**`Encapsulation:`** The class encapsulates the array data and related functions within a single entity, making it easier to manage and manipulate the array as a whole.
 
-`Abstraction:` The class provides a higher-level abstraction for working with arrays. Users can simply interact with the class interface (functions) without worrying about the internal implementation details.
+**`Abstraction:`** The class provides a higher-level abstraction for working with arrays. Users can simply interact with the class interface (functions) without worrying about the internal implementation details.
 
-`Code Organization:` The class helps organize the code by grouping related functions and data together. This improves code readability and maintainability, as it is easier to locate and understand the array-related operations within the class.
+**`Code Organization:`** The class helps organize the code by grouping related functions and data together. This improves code readability and maintainability, as it is easier to locate and understand the array-related operations within the class.
 
-`Reusability:` The class can be instantiated multiple times to create separate instances of arrays, allowing for reusability of the code. Each instance represents a distinct array object with its own set of data and functions.
+**`Reusability:`** The class can be instantiated multiple times to create separate instances of arrays, allowing for reusability of the code. Each instance represents a distinct array object with its own set of data and functions.
 
-`Modularity:` The class promotes modularity by encapsulating each array operation within its own function. This allows for easy modification or extension of specific operations without affecting the entire codebase.
+**`Modularity:`** The class promotes modularity by encapsulating each array operation within its own function. This allows for easy modification or extension of specific operations without affecting the entire codebase.
 
-`Data Hiding:` The class provides encapsulation and access control mechanisms (private and public members) to hide the internal array representation and limit access to certain operations. This ensures data integrity and prevents direct manipulation of array elements without proper checks and validation.
+**`Data Hiding:`** The class provides encapsulation and access control mechanisms (private and public members) to hide the internal array representation and limit access to certain operations. This ensures data integrity and prevents direct manipulation of array elements without proper checks and validation.
 
 **Note:** In addition to the class, the code also includes a menu-driven main function. This main function presents a menu to the user, allowing them to choose from different array operations by entering corresponding options. The menu provided in limited to only 5 functionality but it can be modified to more available functions from the code or you can add more operations on array. Also, update the main function(if you are confident enough) to include the new menu options. Modify the menu display to reflect the added functionalities. Ensure that the menu is user-friendly and easy to navigate.
